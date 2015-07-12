@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CF7A4C81B530B7100C478AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF7A4C71B530B7100C478AA /* AppDelegate.swift */; };
+		4CF7A4CA1B530B7100C478AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF7A4C91B530B7100C478AA /* ViewController.swift */; };
+		4CF7A4CD1B530B7100C478AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF7A4CB1B530B7100C478AA /* Main.storyboard */; };
+		4CF7A4CF1B530B7200C478AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF7A4CE1B530B7200C478AA /* Images.xcassets */; };
+		4CF7A4D21B530B7200C478AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF7A4D01B530B7200C478AA /* LaunchScreen.xib */; };
+		4CF7A4DE1B530B7200C478AA /* PicPollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF7A4DD1B530B7200C478AA /* PicPollTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CF7A4D81B530B7200C478AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF7A4BA1B530B7100C478AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF7A4C11B530B7100C478AA;
+			remoteInfo = PicPoll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CF7A4C21B530B7100C478AA /* PicPoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicPoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF7A4C61B530B7100C478AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF7A4C71B530B7100C478AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CF7A4C91B530B7100C478AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CF7A4CC1B530B7100C478AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CF7A4CE1B530B7200C478AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CF7A4D11B530B7200C478AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4CF7A4D71B530B7200C478AA /* PicPollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicPollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF7A4DC1B530B7200C478AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF7A4DD1B530B7200C478AA /* PicPollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicPollTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF7A4BF1B530B7100C478AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF7A4D41B530B7200C478AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CF7A4B91B530B7100C478AA = {
+			isa = PBXGroup;
+			children = (
+				4CF7A4C41B530B7100C478AA /* PicPoll */,
+				4CF7A4DA1B530B7200C478AA /* PicPollTests */,
+				4CF7A4C31B530B7100C478AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF7A4C31B530B7100C478AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF7A4C21B530B7100C478AA /* PicPoll.app */,
+				4CF7A4D71B530B7200C478AA /* PicPollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF7A4C41B530B7100C478AA /* PicPoll */ = {
+			isa = PBXGroup;
+			children = (
+				4CF7A4C71B530B7100C478AA /* AppDelegate.swift */,
+				4CF7A4C91B530B7100C478AA /* ViewController.swift */,
+				4CF7A4CB1B530B7100C478AA /* Main.storyboard */,
+				4CF7A4CE1B530B7200C478AA /* Images.xcassets */,
+				4CF7A4D01B530B7200C478AA /* LaunchScreen.xib */,
+				4CF7A4C51B530B7100C478AA /* Supporting Files */,
+			);
+			path = PicPoll;
+			sourceTree = "<group>";
+		};
+		4CF7A4C51B530B7100C478AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CF7A4C61B530B7100C478AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CF7A4DA1B530B7200C478AA /* PicPollTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF7A4DD1B530B7200C478AA /* PicPollTests.swift */,
+				4CF7A4DB1B530B7200C478AA /* Supporting Files */,
+			);
+			path = PicPollTests;
+			sourceTree = "<group>";
+		};
+		4CF7A4DB1B530B7200C478AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CF7A4DC1B530B7200C478AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF7A4C11B530B7100C478AA /* PicPoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF7A4E11B530B7200C478AA /* Build configuration list for PBXNativeTarget "PicPoll" */;
+			buildPhases = (
+				4CF7A4BE1B530B7100C478AA /* Sources */,
+				4CF7A4BF1B530B7100C478AA /* Frameworks */,
+				4CF7A4C01B530B7100C478AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicPoll;
+			productName = PicPoll;
+			productReference = 4CF7A4C21B530B7100C478AA /* PicPoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CF7A4D61B530B7200C478AA /* PicPollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF7A4E41B530B7200C478AA /* Build configuration list for PBXNativeTarget "PicPollTests" */;
+			buildPhases = (
+				4CF7A4D31B530B7200C478AA /* Sources */,
+				4CF7A4D41B530B7200C478AA /* Frameworks */,
+				4CF7A4D51B530B7200C478AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF7A4D91B530B7200C478AA /* PBXTargetDependency */,
+			);
+			name = PicPollTests;
+			productName = PicPollTests;
+			productReference = 4CF7A4D71B530B7200C478AA /* PicPollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF7A4BA1B530B7100C478AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = CodeCrispy;
+				TargetAttributes = {
+					4CF7A4C11B530B7100C478AA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					4CF7A4D61B530B7200C478AA = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 4CF7A4C11B530B7100C478AA;
+					};
+				};
+			};
+			buildConfigurationList = 4CF7A4BD1B530B7100C478AA /* Build configuration list for PBXProject "PicPoll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CF7A4B91B530B7100C478AA;
+			productRefGroup = 4CF7A4C31B530B7100C478AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF7A4C11B530B7100C478AA /* PicPoll */,
+				4CF7A4D61B530B7200C478AA /* PicPollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF7A4C01B530B7100C478AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF7A4CD1B530B7100C478AA /* Main.storyboard in Resources */,
+				4CF7A4D21B530B7200C478AA /* LaunchScreen.xib in Resources */,
+				4CF7A4CF1B530B7200C478AA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF7A4D51B530B7200C478AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF7A4BE1B530B7100C478AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF7A4CA1B530B7100C478AA /* ViewController.swift in Sources */,
+				4CF7A4C81B530B7100C478AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF7A4D31B530B7200C478AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF7A4DE1B530B7200C478AA /* PicPollTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CF7A4D91B530B7200C478AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF7A4C11B530B7100C478AA /* PicPoll */;
+			targetProxy = 4CF7A4D81B530B7200C478AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CF7A4CB1B530B7100C478AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF7A4CC1B530B7100C478AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CF7A4D01B530B7200C478AA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF7A4D11B530B7200C478AA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CF7A4DF1B530B7200C478AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CF7A4E01B530B7200C478AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CF7A4E21B530B7200C478AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PicPoll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CF7A4E31B530B7200C478AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PicPoll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CF7A4E51B530B7200C478AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PicPollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicPoll.app/PicPoll";
+			};
+			name = Debug;
+		};
+		4CF7A4E61B530B7200C478AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PicPollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicPoll.app/PicPoll";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF7A4BD1B530B7100C478AA /* Build configuration list for PBXProject "PicPoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF7A4DF1B530B7200C478AA /* Debug */,
+				4CF7A4E01B530B7200C478AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF7A4E11B530B7200C478AA /* Build configuration list for PBXNativeTarget "PicPoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF7A4E21B530B7200C478AA /* Debug */,
+				4CF7A4E31B530B7200C478AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CF7A4E41B530B7200C478AA /* Build configuration list for PBXNativeTarget "PicPollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF7A4E51B530B7200C478AA /* Debug */,
+				4CF7A4E61B530B7200C478AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF7A4BA1B530B7100C478AA /* Project object */;
+}
